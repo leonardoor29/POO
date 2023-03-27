@@ -1,0 +1,17 @@
+public class Aluno {
+
+    public static void main(String[] args) {
+        String nome = "Leonardo";
+        int semestre = 2;
+        int idade = 25;
+        String faculdade = "FASIPE";
+        String unidade = "Aquarela";
+
+        
+        System.out.println("O nome do Aluno é: " + nome);
+        System.out.println("A idade dele é: " + idade);
+        System.out.println("Ele está no " + semestre + "Semestre");
+        System.out.println("A instituição de ensino é a: " + faculdade);
+        System.out.println("A unidade em que ele está é a: " + unidade);
+    }
+}
